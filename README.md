@@ -7,3 +7,6 @@ You can fetch the image from [dockerhub](https://hub.docker.com/r/hiorgserver/no
 
     docker run -it --rm -v "$PWD":/usr/src/myapp hiorgserver/node-chromium /bin/sh
 
+## Build Container
+
+Autobuild triggers a new build with every git push to your source code repository.
