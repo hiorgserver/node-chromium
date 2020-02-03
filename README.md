@@ -1,4 +1,4 @@
-#node-chromium
+# node-chromium
 Docker container to run tests in node environment with chromium installed.
 
 ## Run the container
