@@ -10,6 +10,7 @@ RUN apk add --no-cache \
 RUN mkdir -p /usr/src/app \
     && adduser -D chrome \
     && chown -R chrome:chrome /usr/src/app
+
 # Run Chrome as non-privileged
 USER chrome
 WORKDIR /usr/src/app
