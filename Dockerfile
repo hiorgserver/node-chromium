@@ -1,4 +1,4 @@
-FROM node:10.16.0-alpine
+FROM node:8.11.1
 
 # Install chromium, some dependnecies, node and dumb-init
 RUN apk add --no-cache \
